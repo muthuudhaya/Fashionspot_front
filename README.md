@@ -1,0 +1,1 @@
+# fashionspot_front
