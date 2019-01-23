@@ -11,35 +11,35 @@ public class PageController
  public String showLogin(Model m) 
  {
   m.addAttribute("pageinfo","Login");
-  return "Login";
+  return "login";
  } 
  
  @RequestMapping ("/register")
  public String showRegister(Model m) 
  {
   m.addAttribute("pageinfo","Register");
-  return "Register";
+  return "register";
  } 
  
  @RequestMapping ("/contactus")
  public String showContactUs(Model m) 
  {
-  m.addAttribute("pageinfo","Contact-Us");	 
-  return "ContactUs";
+  m.addAttribute("pageinfo","Contact-Us");
+  return "contactus";
  } 
  
  @RequestMapping ("/aboutus")
  public String showAboutUs(Model m) 
  {
-  m.addAttribute("pageinfo","About-Us");	 
-  return "Aboutus";
+  m.addAttribute("pageinfo","About-Us");
+  return "aboutus";
  } 
  
  @RequestMapping ("/home")
  public String showHome(Model m) 
  {
   m.addAttribute("pageinfo","Home"); 
-  return "Home";
+  return "home";
  } 
  
 }

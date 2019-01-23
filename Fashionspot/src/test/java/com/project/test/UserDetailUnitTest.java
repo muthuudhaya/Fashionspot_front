@@ -20,19 +20,20 @@ public class UserDetailUnitTest {
 	     context.refresh();
 	     userdetailDAO=(UserDetailDAO)context.getBean("userdetailDAO");
 	}    
-    @Ignore
+    
 	@Test
 	public void addusertest() 
 	{
 		UserDetail user = new UserDetail();
-		user.setCustomername("Vighnesh");
-		user.setCustomerAddr("Delhi");
-		user.setUsername("vicky");
-		user.setPassword("vicky");
+		user.setCustomername("Srinivasan");
+		user.setCustomerAddr("Chennai");
+		user.setUsername("srini");
+		user.setPassword("srini");
 		user.setRole("User");
 		user.setEnabled(true);
 		assertTrue("Problem in adding User Details",userdetailDAO.registerUser(user));
 	}
+	@Ignore
     @Test
     public void updateusertest()
     {
@@ -41,6 +42,7 @@ public class UserDetailUnitTest {
 		assertTrue("Problem in updating User Details",userdetailDAO.updateAddress(user));
 	}
     @Test
+    @Ignore
     public void viewusertest()
     {
     	UserDetail user = userdetailDAO.getUser("muthu");

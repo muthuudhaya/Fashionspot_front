@@ -14,6 +14,8 @@ public class Category
  @GeneratedValue
  int categoryID;
  String categoryName;
+ String categoryDesc;
+
  public int getCategoryID() {
 	return categoryID;
 }
@@ -32,6 +34,5 @@ public String getCategoryDesc() {
 public void setCategoryDesc(String categoryDesc) {
 	this.categoryDesc = categoryDesc;
 }
-String categoryDesc;
  
 }

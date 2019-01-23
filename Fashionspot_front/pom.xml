@@ -8,6 +8,12 @@
   <name>Fashionspot_front Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+</dependency>
+  
     <dependency>
   			<groupId>javax.servlet</groupId>
   			<artifactId>javax.servlet-api</artifactId>
@@ -69,6 +75,11 @@
   			<groupId>com.project</groupId>
   			<artifactId>Fashionspot</artifactId>
   			<version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>javax.servlet</groupId>
+  			<artifactId>jstl</artifactId>
+  			<version>1.2</version>
   		</dependency>
   	</dependencies>
   </dependencyManagement>
