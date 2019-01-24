@@ -24,6 +24,8 @@
       <li><a href="aboutus">About Us</a></li>
       <li><a href="contactus">Contact Us</a></li>
       <li><a href="category">Manage Category</a></li>
+      <li><a href="product">Manage Products</a></li>
+      
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
