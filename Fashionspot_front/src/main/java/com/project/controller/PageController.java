@@ -24,14 +24,14 @@ public class PageController
  @RequestMapping ("/contactus")
  public String showContactUs(Model m) 
  {
-  m.addAttribute("pageinfo","Contact-Us");
+  m.addAttribute("pageinfo","ContactUs");
   return "contactus";
  } 
  
  @RequestMapping ("/aboutus")
  public String showAboutUs(Model m) 
  {
-  m.addAttribute("pageinfo","About-Us");
+  m.addAttribute("pageinfo","AboutUs");
   return "aboutus";
  } 
  

@@ -24,15 +24,15 @@
 <tr>
     <td>Category</td>
     <td>
-    <form:select path="categoryId">
+    <form:select path="categoryID">
     <form:option value="0" label="--Select List--"/>
     <form:options items="${categoryList}"/>
     </form:select>
     </td>
 </tr>
 <tr>
-    <td>Supplier</td>
-    <td><form:input path="supplierId"/></td>
+    <td>SupplierID</td>
+    <td><form:input path="supplierID"/></td>
 </tr>
 <tr>
     <td>Product Desc</td>
